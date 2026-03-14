@@ -1,49 +1,49 @@
 ---
-title: "Hello World - 我的第一篇博客"
+title: "Hello World - My First Blog Post"
 date: 2026-03-14T12:00:00+08:00
 draft: false
 tags: ["hugo", "blog", "beginning"]
-categories: ["随笔"]
+categories: ["General"]
 author: "Simon"
-description: "使用 Hugo + PaperMod 搭建个人技术博客的第一篇文章"
+description: "My first blog post using Hugo and PaperMod theme"
 ShowToc: true
 TocOpen: false
 ---
 
-## 欢迎来到我的技术博客
+## Welcome to My Blog
 
-这是我的第一篇博客文章！经过一番折腾，终于用 **Hugo** 和 **PaperMod** 主题搭建好了这个博客。
+This is my first blog post! After some tinkering, I finally set up this blog using **Hugo** and the **PaperMod** theme.
 
-### 为什么选择 Hugo？
+### Why Hugo?
 
-1. **极速构建** - 每秒可以生成数千页面
-2. **单二进制文件** - 一个文件搞定所有，无需依赖
-3. **Markdown 原生支持** - 内容使用 Markdown 编写，专注写作
-4. **主题丰富** - 社区有大量精美主题
+1. **Blazing Fast** - Generates thousands of pages per second
+2. **Single Binary** - One file handles everything, no dependencies
+3. **Native Markdown** - Write content in Markdown, focus on writing
+4. **Rich Themes** - Huge community with beautiful themes
 
-### 技术栈
+### Tech Stack
 
-- **静态生成器**: [Hugo](https://gohugo.io/)
-- **主题**: [PaperMod](https://github.com/adityatelange/hugo-PaperMod)
-- **部署**: GitHub Pages
-- **域名**: GitHub 提供的免费域名
+- **Static Generator**: [Hugo](https://gohugo.io/)
+- **Theme**: [PaperMod](https://github.com/adityatelange/hugo-PaperMod)
+- **Deployment**: GitHub Pages
+- **Domain**: Free GitHub Pages domain
 
-### 代码示例
+### Code Example
 
 ```python
 def hello_world():
     print("Hello, World!")
-    print("欢迎来到我的技术博客")
+    print("Welcome to my blog")
 
 if __name__ == "__main__":
     hello_world()
 ```
 
-### 未来计划
+### Future Plans
 
-- [ ] 分享更多技术文章
-- [ ] 记录项目开发过程
-- [ ] 整理学习笔记
-- [ ] 搭建自己的知识库
+- [ ] Share more tech articles
+- [ ] Document project development
+- [ ] Organize learning notes
+- [ ] Build a personal knowledge base
 
-感谢阅读！
+Thanks for reading!

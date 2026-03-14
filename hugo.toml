@@ -1,11 +1,11 @@
 baseURL = 'https://yorha59.github.io/blog/'
-languageCode = 'zh-cn'
+languageCode = 'en-us'
 title = '忙里偷闲'
 theme = 'PaperMod'
 
 [params]
   author = 'Simon'
-  description = '记录生活点滴，分享技术随笔'
+  description = 'A personal blog sharing tech notes and life moments'
   defaultTheme = 'light'
   disableThemeToggle = false
   ShowReadingTime = true
@@ -25,7 +25,7 @@ theme = 'PaperMod'
 
   [params.homeInfoParams]
     Title = "Hi there 👋"
-    Content = "欢迎来到我的技术博客，这里记录我的编程学习、项目实践和技术思考。"
+    Content = "Welcome to my personal blog where I share my programming journey, project experiences, and random thoughts."
 
   [[params.socialIcons]]
     name = "github"
@@ -42,22 +42,22 @@ theme = 'PaperMod'
 [menu]
   [[menu.main]]
     identifier = 'home'
-    name = '🏠 首页'
+    name = '🏠 Home'
     url = '/'
     weight = 10
   [[menu.main]]
     identifier = 'archives'
-    name = '📁 归档'
+    name = '📁 Archives'
     url = '/archives/'
     weight = 20
   [[menu.main]]
     identifier = 'tags'
-    name = '🏷️ 标签'
+    name = '🏷️ Tags'
     url = '/tags/'
     weight = 30
   [[menu.main]]
     identifier = 'search'
-    name = '🔍 搜索'
+    name = '🔍 Search'
     url = '/search/'
     weight = 40
 
