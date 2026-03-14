@@ -1,11 +1,11 @@
 baseURL = 'https://yorha59.github.io/blog/'
 languageCode = 'zh-cn'
-title = 'Simon的技术博客'
+title = '忙里偷闲'
 theme = 'PaperMod'
 
 [params]
   author = 'Simon'
-  description = '记录技术成长，分享开发心得'
+  description = '记录生活点滴，分享技术随笔'
   defaultTheme = 'light'
   disableThemeToggle = false
   ShowReadingTime = true
