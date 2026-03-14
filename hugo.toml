@@ -1,6 +1,6 @@
 baseURL = 'https://yorha59.github.io/blog/'
 languageCode = 'en-us'
-title = '忙里偷闲'
+title = 'hemoon忙里偷闲'
 theme = 'PaperMod'
 
 [params]
