@@ -1,89 +1,89 @@
-# Simon 的技术博客
+# Simon taking a breather
 
-使用 Hugo + PaperMod 主题搭建的个人技术博客，部署在 GitHub Pages 上。
+A personal blog built with Hugo + PaperMod theme, deployed on GitHub Pages.
 
-## 🚀 快速开始
+## 🚀 Quick Start
 
-### 本地预览
+### Local Preview
 
 ```bash
-# 进入项目目录
+# Enter project directory
 cd my-blog
 
-# 启动开发服务器
+# Start development server
 hugo server -D
 
-# 访问 http://localhost:1313
+# Visit http://localhost:1313
 ```
 
-### 创建新文章
+### Create New Post
 
 ```bash
-hugo new content posts/文章标题.md
+hugo new content posts/article-title.md
 ```
 
-### 构建站点
+### Build Site
 
 ```bash
 hugo --minify
 ```
 
-## 📁 项目结构
+## 📁 Project Structure
 
 ```
 my-blog/
-├── archetypes/      # 内容模板
-├── assets/          # 资源文件
-├── content/         # 网站内容
-│   ├── archives.md  # 归档页面
-│   ├── search.md    # 搜索页面
-│   └── posts/       # 博客文章
-├── data/            # 数据文件
-├── layouts/         # HTML 模板
-├── static/          # 静态文件
-├── themes/          # 主题
-│   └── PaperMod/    # PaperMod 主题
-├── hugo.toml        # 站点配置
+├── archetypes/      # Content templates
+├── assets/          # Asset files
+├── content/         # Site content
+│   ├── archives.md  # Archives page
+│   ├── search.md    # Search page
+│   └── posts/       # Blog posts
+├── data/            # Data files
+├── layouts/         # HTML templates
+├── static/          # Static files
+├── themes/          # Themes
+│   └── PaperMod/    # PaperMod theme
+├── hugo.toml        # Site configuration
 └── .github/
     └── workflows/
-        └── deploy.yml  # GitHub Actions 部署配置
+        └── deploy.yml  # GitHub Actions deployment config
 ```
 
-## 📝 写作指南
+## 📝 Writing Guide
 
-### 文章 Front Matter
+### Post Front Matter
 
 ```yaml
 ---
-title: "文章标题"
+title: "Article Title"
 date: 2026-03-14T12:00:00+08:00
 draft: false
 tags: ["tag1", "tag2"]
-categories: ["分类"]
+categories: ["Category"]
 author: "Simon"
-description: "文章描述"
-ShowToc: true      # 显示目录
-TocOpen: false     # 目录默认折叠
+description: "Article description"
+ShowToc: true      # Show table of contents
+TocOpen: false     # TOC collapsed by default
 ---
 ```
 
-### 常用 Shortcodes
+### Common Shortcodes
 
-PaperMod 主题提供了丰富的 shortcodes，详见[官方文档](https://github.com/adityatelange/hugo-PaperMod/wiki)。
+PaperMod theme provides rich shortcodes, see [official documentation](https://github.com/adityatelange/hugo-PaperMod/wiki) for details.
 
-## 🌐 部署
+## 🌐 Deployment
 
-项目配置了 GitHub Actions，推送代码到 `main` 分支会自动构建并部署到 GitHub Pages。
+GitHub Actions is configured. Pushing code to `main` branch will automatically build and deploy to GitHub Pages.
 
-## 🔧 配置说明
+## 🔧 Configuration
 
-站点配置在 `hugo.toml` 中，主要配置项：
+Site configuration is in `hugo.toml`, main options:
 
-- `baseURL` - 网站地址（部署前需要修改为你的 GitHub Pages 地址）
-- `title` - 网站标题
-- `params` - 主题参数
-- `menu` - 导航菜单
+- `baseURL` - Site URL (modify to your GitHub Pages URL before deployment)
+- `title` - Site title
+- `params` - Theme parameters
+- `menu` - Navigation menu
 
-## 📄 许可证
+## 📄 License
 
 MIT License
